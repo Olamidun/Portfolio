@@ -38,7 +38,7 @@
 	margin-left: 45px;
 
 }*/
- .checkbtn{
+ /*.checkbtn{
 		display: block;
 	}
 	nav ul{
@@ -54,7 +54,7 @@
 	}
 	#toggler:checked ~ ul{
 		left: 0;
-	}
+	}*/
 
 .stack-image{
 	width: 70%;
