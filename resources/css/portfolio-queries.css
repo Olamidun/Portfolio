@@ -17,9 +17,6 @@
 	nav ul li{
 	margin-right: 20px;
 	}
-	.estore{
-	width: 90%; 
-}
 }
 
 /*BREAKING POINT OF 1023px*/
@@ -90,9 +87,6 @@
 		border-radius: 20px;
 		width: 90%;
 	}
-	.estore{
-	width: 90%; 
-	}
 	.project{
 		font-size: 16px;
 	}
@@ -122,9 +116,6 @@
 		border-radius: 20px;
 		width: 50%;
 	}
-	.estore{
-	width: 50%; 
-}
 	.olamidun{
 		margin:15px 0 15px 0;
 	}
@@ -150,4 +141,25 @@
 	header nav ul li a{
 		display: block;
 	}
+}
+
+@media only screen and (max-width: 480px){
+	body,html{overflow-x: hidden}
+	.introduction{
+	width: 100%;
+	padding-right: 3%;
+}
+.introduction{
+	width: 100%;
+	left: 10%;
+	padding-right: 3%;
+	}
+.introduction span{
+	color: #cf6d17;
+	font-size: 80%;
+	}
+	.introduction p{
+		font-size: 100%;
+	}
+
 }
