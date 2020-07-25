@@ -16,10 +16,6 @@
 	<header id="home">
 		<div class="row">
 			<nav>
-				<input type="checkbox" id="toggler">
-				<label for="toggler" class="checkbtn">
-					<i class="ion-ios-chatbubble-outline"></i>
-				</label>
 				<ul>
 					<li>
 						<a href="#home">Home</a>
@@ -30,15 +26,8 @@
 					</li>
 				</ul>
 			</nav>
+			<div class="menu-toggle"><i class="ion-navicon-round"></i></div>
 		</div>
-			
-			
-			
-				<div>
-					<div>
-						
-					</div>
-				</div>
 		<div class="row">
 			<div class="introduction" data-aos="fade-right" data-aos-duration="500">
 				<span>Hi, I'm</span> <p>Opeoluwa Olamidun Kolapo</p>
@@ -47,10 +36,10 @@
 	</header>
 	<section id="about">
 			<div class="about-section" data-aos="fade-right" data-aos-duration="500">
-				<i class="ion-ios-person-outline icon-big"></i> <i class="ion-navicon-round icon-big"></i>
+				<i class="ion-ios-person-outline icon-big"></i>
 				<p class="about-me">About Me</p><br>
 				<p class='about-details'>
-					I am Opeoluwa Olamidun Kolapo, a Backend Web Developer based in Ibadan, Nigeria. Are you looking for that guy to build robust APIs and Backend logic for your websites and web applications? I am your guy :). I also write technical articles on <span class="medium-link"><a href="https://www.medium.com/@olamidunkolapo" target="_blank">Medium</a></span>.  Checkout the tools I use below. When I am not getting my hands dirty with coding, I watch movies or play football, or watch football, or listen to music.
+					I am Opeoluwa Olamidun Kolapo, a Backend Web Developer based in Ibadan, Nigeria. Are you looking for that guy to design professional websites for you, build robust APIs and Backend logic for your websites and web applications? I am your guy :). I also write technical articles on <span class="medium-link"><a href="https://www.medium.com/@olamidunkolapo" target="_blank">Medium</a></span>.  Checkout the tools I use below. When I am not getting my hands dirty with coding, I watch movies or play football, or watch football, or listen to music.
 				</p>
 			</div>
 	</section>
@@ -100,14 +89,6 @@
 					<p class="stack-name">GitHub</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col span-1-of-3" data-aos="fade-left">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/postgres.png" alt="PostgresSQL">
-					</div>
-					<p class="stack-name">PostgresSQL</p>
-				</div>
-			</div>	
 		</div>
 	</section>
 	<section id="projects">
@@ -119,23 +100,23 @@
 			<div class="col span-1-of-3" data-aos="fade-right">
 				<p class="project">Writeashortpost</p><br>
 				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/jersey.jpeg">
+					<img class="project-image-animate" src="./resources/images/writeashortpost.png">
 				</div>
 				<p class="project-link">
 					<a href="https://writeashortpost.herokuapp.com" target="_blank">View Project</a></p></br>
 			</div>
 			<div class="col span-1-of-3" data-aos="fade-right">
-				<p class="project">RandAlgo</p><br>
+				<p class="project">Estore</p><br>
 				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/jersey.jpeg">
+					<img class="project-image-animate" src="./resources/images/estore3.jpg">
 				</div>
 				<p class="project-link">
 					<a href="#" target="_blank">View Project</a></p></br>
 			</div>
 			<div class="col span-1-of-3" data-aos="fade-right">
-				<p class="project">Estore</p><br>
+				<p class="project">Omnifood</p><br>
 				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/jersey.jpeg">
+					<img class="project-image-animate" src="./resources/images/omnifood.png">
 				</div>
 				<p class="project-link">
 					<a href="#" target="_blank">View Project</a></p></br>
@@ -154,7 +135,7 @@
 			</div>
 			<div class="col span-1-of-3" data-aos="fade-left">
 				<div class="olamidun">
-					<a href="mailto:kolapoolamiposi2002@gmail.com"><i class="ion-email icon-big"></i></a>
+					<a href="mailto:kolapoolamidun@gmail.com"><i class="ion-email icon-big"></i></a>
 				</div>
 			</div>
 			<div class="col span-1-of-3" data-aos="fade-left">
@@ -172,5 +153,18 @@
 	<script>
   		AOS.init();
 	</script>
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.js"
+	  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	  crossorigin="anonymous">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.menu-toggle').click(function(){
+				$('nav').toggleClass('active')
+			})
+		})
+	</script>
+	
 </body>
 </html>
