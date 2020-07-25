@@ -78,16 +78,18 @@ ul li a{
 	margin-left: 30px;
 	font-size: 18px;
 	display: block;
+	float: left;
+}
+li a{
+	color: #cf6d17;
 }
 li a:link, nav li a:visited{
-	color: #cf6d17;
 	text-decoration: none;
-	float: left;
 }
 
 li a:hover{
 	color: #D0D0D0;
-	border-bottom: 1.5px solid #cf6d17;
+	/*border-bottom: 1.5px solid #cf6d17;*/
 }
 .menu-toggle{
 	color: #cf6d17;
@@ -226,10 +228,6 @@ text-align: center;
 .project-image-animate:hover{
 	opacity: 1;
 	transform: scale(1.03);
-}
-.estore{
-	width: 225px; 
-	height: 225px;
 }
 
 /*ANIMATION*/
