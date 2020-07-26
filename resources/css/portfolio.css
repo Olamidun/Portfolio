@@ -133,7 +133,7 @@ li a:hover{
 
 #stacks p{
 	padding-top: -5px;
-	margin-bottom: 15px; 
+	margin-bottom: 25px; 
 	text-align: center;
 }
 
@@ -142,10 +142,11 @@ li a:hover{
 }
 
 .stack-image{
+	margin-bottom: 10px; 
 	opacity: 0.7;
 	width: 70%;
 	height: 100%;
-	border-radius: 50%;
+	border-radius: 30px;
 	border: 2.5px solid #cf6d17;
 	vertical-align: middle;
 	transform: scale(1);
@@ -186,6 +187,13 @@ li a:hover{
 .project-link a:hover, .medium-link a:hover{
 	color: #D0D0D0;
 	border-bottom: 1.5px solid #cf6d17;
+}
+.project{
+	margin-bottom: 5px;
+}
+
+.write{
+	margin-top: 15px;
 }
 
 #contact{

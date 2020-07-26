@@ -110,11 +110,11 @@
 		width: 100%;
 	}
 	.stack-image{
-	width: 50%;
+	width: 90%;
 	}
 	.project-image-animate{
 		border-radius: 20px;
-		width: 50%;
+		width: 90%;
 	}
 	.olamidun{
 		margin:15px 0 15px 0;
@@ -182,5 +182,13 @@
 	}
 	nav ul li a:hover{
 	color: #D0D0D0;
+}
+	.stack-image{
+	width: 90%;
+	}
 
+	.project-image-animate{
+		border-radius: 20px;
+		width: 90%;
+	}
 }
