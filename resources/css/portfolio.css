@@ -114,6 +114,9 @@ li a:hover{
 .about-me{
 	text-align: center;
 }
+.about-section p{
+	line-height: 145%;
+}
 
 /*ICONS*/
 .icon-big:before{

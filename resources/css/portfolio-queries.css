@@ -108,13 +108,14 @@
 	}
 	.col{
 		width: 100%;
+		margin: 0 0 4% 0;
 	}
 	.stack-image{
-	width: 100%;
+	width: 80%;
 	}
 	.project-image-animate{
 		border-radius: 20px;
-		width: 100%;
+		width: 80%;
 	}
 	.olamidun{
 		margin:15px 0 15px 0;
