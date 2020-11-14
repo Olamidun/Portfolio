@@ -7,6 +7,7 @@
 
 html, body{
 	background-color: #0e1111;
+	padding: 0 0 0 0;
 	scroll-behavior: smooth;
 	position: relative;
 	color: #D0D0D0;
@@ -62,6 +63,21 @@ header{
 .introduction p{
 	font-size: 300%;
 }
+
+/*.typing p{
+	animation: typing 2.6s steps(30, end);
+}
+
+@keyframes typing{
+	from{
+		width: 0;
+	}
+
+	to {
+		width: 100%;
+	}
+}*/
+
 /*NAVBAR*/
 nav ul{
 	float: right;
@@ -100,12 +116,27 @@ li a:hover{
 	cursor: pointer;
 	display: none;
 }
+/*BUTTON*/
+.btn-ghost{
+	font-size: 16px;
+}
+.btn-ghost:link, 
+.btn-ghost:visited {
+	border: 1px solid #e67e22;
+	color:#e67e22;
+}
+
+.btn-ghost:hover, 
+.btn-ghost:active{
+	border: 1px solid #cf6d17;
+	color:#fff;
+}
 
 /*ABOUT*/
 #about{
 	margin-left: 10%;
 	margin-right: 10%;
-	border-bottom: 1px solid #404040;
+	/*border-bottom: 1px solid #404040;*/
 }
 
 #about .box{
@@ -116,6 +147,10 @@ li a:hover{
 }
 .about-section p{
 	line-height: 145%;
+}
+.about-details{
+	text-align: left;
+	margin-top: -25px;
 }
 
 /*ICONS*/
@@ -131,10 +166,10 @@ li a:hover{
 #stacks{
 	margin-left: 20%;
 	margin-right: 20%;
-	border-bottom: 1px solid #404040;
+	/*border-bottom: 1px solid #404040;*/
 }
 
-#stacks p{
+.project p{
 	padding-top: -5px;
 	margin-bottom: 25px; 
 	text-align: center;
@@ -154,38 +189,25 @@ li a:hover{
 	vertical-align: middle;
 
 }
-/*Projects*/
-#projects{
-	margin-left: 20%;
-	margin-right: 20%;
-	border-bottom: 1px solid #404040;
-}
 
-#projects p{
+/*#project-id{border-bottom: 1px solid #404040;}*/
+.project-font{font-family: 'Lato', 'Arial', 'consolas'}
+
+.project h6{
 	text-align: center;
-}
-.project-image{
-	text-align: center;
-	margin-left: 5px;
+	margin-top: 15px;
+	color: #cf6d17;
+
 }
 .medium-link{
-	font-size: 21px;
-}
-.project-link a{
-	font-size: 16px;
-}
-
-.project-link a:link, .project-link a:visited, .medium-link a:link, .medium-link a:visited{
+	/*font-size: 21px;*/
 	color: #cf6d17;
-	text-decoration: none;
 }
 
-.project-link a:hover, .medium-link a:hover{
+.medium-link:hover{
+	/*font-size: 21px;*/
 	color: #D0D0D0;
-	border-bottom: 1.5px solid #cf6d17;
-}
-.project{
-	margin-bottom: 5px;
+	text-decoration: none;
 }
 
 .write{
@@ -193,9 +215,9 @@ li a:hover{
 }
 
 #contact{
-	border-bottom: 1px solid #404040;
-	margin-left: 20%;
-	margin-right: 20%;
+	/*border-bottom: 1px solid #404040;*/
+	/*margin-left: 20%;
+	margin-right: 20%;*/
 }
 
 .phone-number, .whatsapp-number, .email-address{
@@ -220,9 +242,9 @@ text-align: center;
 .olamidun a{
 	text-decoration: none;
 }
-.footer{
+footer{
 	margin: 8px 0;
-	text-align: center;
+	text-align: justify;
 }
 .project-image-animate{
 	border-radius: 30px;

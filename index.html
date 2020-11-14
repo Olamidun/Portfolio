@@ -3,6 +3,10 @@
 <head>
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"/>
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="stylesheet" type="text/css" href="./resources/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./resources/css/jumbotron.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./resources/css/sticky-footer.css"> -->
+	
 	<link rel="stylesheet" type="text/css" href="./vendor/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./vendor/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="./vendor/css/ionicons.min.css">
@@ -21,133 +25,138 @@
 						<a href="#home">Home</a>
 						<a href="#about">About</a>
 						<a href="#stacks">Stacks</a>
-						<a href="#projects">Projects</a>
+						<a href="#project-id">Projects</a>
 						<a href="#contact">Contact</a>
 					</li>
 				</ul>
 			</nav>
 			<div class="menu-toggle"><i class="ion-navicon-round"></i></div>
 		<div class="row">
-			<div class="introduction" data-aos="fade-right" data-aos-duration="100">
+			<div class="introduction">
+				<!-- data-aos="fade-right" data-aos-duration="100" -->
 				<span>Hi, I'm</span> <p>Opeoluwa Olamidun Kolapo</p>
 			</div>
 		</div>
 	</header>
-	<section id="about">
+
+	<main role="main" id="about">
+		<div class="container" style="border-bottom: 1px solid #404040">
 			<div class="about-section" data-aos="fade-right" data-aos-duration="1000">
 				<i class="ion-ios-person-outline icon-big"></i>
 				<p class="about-me">About Me</p><br>
 				<p class='about-details'>
-					I am Opeoluwa Olamidun Kolapo, I am a Web Developer. Are you looking for that guy to design professional websites for you, build robust APIs and Backend logic for your websites and web applications? I am your guy :). I also write technical articles on <span class="medium-link"><a href="https://www.medium.com/@olamidunkolapo" target="_blank">Medium</a></span>.  Checkout the tools I use below. When I am not getting my hands dirty with coding, I watch movies or play or watch football, or listen to music.
+					I am Opeoluwa Olamidun Kolapo, I am a Web Developer. Are you looking for that guy to design professional websites for you, build robust APIs and Backend logic for your websites and web applications? I am your guy :). I also write technical articles on <a class="medium-link" href="https://www.medium.com/@olamidunkolapo" target="_blank">Medium</a></span>.  Checkout the tools I use below. When I am not getting my hands dirty with coding, I watch movies or play or watch football, or listen to music.
 				</p>
 			</div>
-	</section>
-	<section id="stacks">
-		<div>
-			<div class="row">
+		</div>
+			
+	</main>
+	<main role="main" id="stacks">
+		<div class="container" style="border-bottom: 1px solid #404040; margin-top: 15px;">
+			<!-- <div class="row">
 				<i class="ion-android-desktop icon-big"></i>
 				<p>Stacks</p>
-			</div>	
+			</div> -->
+			<i class="ion-android-desktop icon-big"></i>
+				<p class="about-me">Stacks</p>	
 			<div class="row">
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/python.jpeg" alt="Python">
-					</div>
-					<p>Python</p>
+				<div class="col span-1-of-3">
+					<p>#Python</p>
 				</div>
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/Django.png" alt="Django">
-					</div>
-					<p>Django</p>
+				<div class="col span-1-of-3">
+					<p>#Django</p>
 				</div>
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/html.png" alt="Html">
-					</div>
-					<p class="stack-name">HTML5</p>
+				<div class="col span-1-of-3">
+					<p style="text-align: justify">#Wordpress</p>
 				</div>
+				
 			</div>
 			<div class="row">
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/css.png" alt="css">
-					</div>
-					<p>CSS3</p>
+				<div class="col span-1-of-3">
+					<p>#HTML5</p>
 				</div>
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/git.png" alt="Git">
-					</div>
-					<p>Git</p>
+
+				<div class="col span-1-of-3">
+					<p>#CSS3</p>
 				</div>
-				<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-					<div class="images">
-						<img class="stack-image" src="./resources/images/github.png" alt="Github">
-					</div>
-					<p class="stack-name">GitHub</p>
+				<div class="col span-1-of-3">
+					<p>#Git/Github</p>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section id="projects">
-		<i class="ion-code-working icon-big"></i>
-		<div class="row">
-			<p class="project-title">My Projects</p>
-		</div>
-		<div class="row">
-			<div class="col span-1-of-3" data-aos="fade-right" data-aos-duration="1000">
-				<p class="project write">Writeashortpost</p>
-				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/writeashortpost.png">
-				</div>
-				<p class="project-link">
-					<a href="https://writeashortpost.herokuapp.com" target="_blank">View Project</a></p></br>
-			</div>
-			<div class="col span-1-of-3" data-aos="fade-right" data-aos-duration="1000">
-				<p class="project write">Estore</p>
-				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/estore3.jpg">
-				</div>
-				<p class="project-link">
-					<a href="https://estore-olamidun.herokuapp.com/" target="_blank">View Project</a></p></br>
-			</div>
-			<div class="col span-1-of-3" data-aos="fade-right" data-aos-duration="1000">
-				<p class="project write">OrderAndEat</p>
-				<div class="project-image">
-					<img class="project-image-animate" src="./resources/images/omnifood.png">
-				</div>
-				<p class="project-link">
-					<a href="https://orderandeat.netlify.app" target="_blank">View Project</a></p></br>
-			</div>
-		</div>
-	</section>
-	<section id="contact">
-		<div class="row">
-			<p style="font-size: 18px; text-align:center; margin-bottom: 5%;">Connect with me</p>
-		</div>
-		<div class="row">
-			<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-				<div class="olamidun">
+	</main>
+	<main role="main" id="project-id">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="container" style="border-bottom: 1px solid #404040">
+        <!-- Example row of columns -->
+        <div class="row project-font">
+          <div class="col-md-4 project" data-aos="fade-left" data-aos-duration="1000">
+            <p style="color:#cf6d17; margin-bottom: -2px">Writeashortpost</p>
+            <p style="text-align: left">Writeashortpost is a blog built with python and django. It allows users to create, read, update, delete, comment and like posts. A rich WYSIWYG editor was also integrated to make it feel more like a CMS</p>
+            <p><a class="btn btn-ghost" href="#">view project. &raquo;</a></p>
+          </div>
+          <div class="col-md-4 project" data-aos="fade-left" data-aos-duration="1000">
+            <p style="color:#cf6d17; margin-bottom: -2px">Estore-Olamidun</p>
+            <p style="text-align: left">Estore-Olamidun is an ecommerce website, users can login, add whatever products they like to the cart and when they are done shopping, they can checkout and pay for the items. Users can also request for refund if the wrong item was delivered on delivery </p>
+            <p><a class="btn btn-ghost" href="#">view project. &raquo;</a></p>
+          </div>
+          <div class="col-md-4 project" data-aos="fade-left" data-aos-duration="1000">
+            <p style="color:#cf6d17; margin-bottom: -2px">Olamidun-Algorithm-Question Fetcher</p>
+            <p style="text-align: left">This is a command line app that was built with python, it scrapes algorithm questions off a website. </p>
+            <p><a class="btn btn-ghost" href="#">view project. &raquo;</a></p>
+          </div>
+          <div class="col-md-4 project" data-aos="fade-left" data-aos-duration="1000">
+            <p style="color:#cf6d17; margin-bottom: -2px">OLiP</p>
+            <p style="text-align: left">OLiP is a school management system built for an organization that offers literacy, numeracy and digital literacy program. It was built with Wordpress  </p>
+            <p><a class="btn btn-ghost" href="#">view project. &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+    </main>
+
+    <main role="main" id="stacks">
+		<div class="container" style="margin-top:15px; border-bottom: 1px solid #404040">
+			<!-- <div class="row">
+				<i class="ion-android-desktop icon-big"></i>
+				<p>Stacks</p>
+			</div> -->	
+			<div class="row">
+				<div class="col span-1-of-3">
 					<a href="https://www.twitter.com/Olamidun2"><i class="ion-social-twitter-outline icon-big"></i></a>
 				</div>
-			</div>
-			<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-				<div class="olamidun">
+				<div class="col span-1-of-3">
 					<a href="mailto:kolapoolamidun@gmail.com"><i class="ion-email icon-big"></i></a>
 				</div>
-			</div>
-			<div class="col span-1-of-3" data-aos="fade-left" data-aos-duration="1000">
-				<div class="olamidun">
-					<a href="https://www.github.com/Olamidun" target="_blank"><i class="ion-social-github-outline icon-big"></i></a>
+				<div class="col span-1-of-3">
+					<a href="https://www.github.com/Olamidun"><i class="ion-social-github-outline icon-big"></i></a>
 				</div>
+				
 			</div>
+			<!-- <div class="row">
+				<div class="col span-1-of-3">
+					<p>#HTML5</p>
+				</div>
+
+				<div class="col span-1-of-3">
+					<p>#CSS3</p>
+				</div>
+				<div class="col span-1-of-3">
+					<p>#Git/Github</p>
+				</div>
+			</div> -->
 		</div>
-	</section>
-	<footer>
-		<div class="row">
-			<p class="footer">Copyright &copy; Kolapo Olamidun 2020</p></div>
-	</footer>
+	</main>
+	<footer class="footer">
+      <div class="container">
+        <span class="text-muted" style="text-align: justify;">Copyright &copy; Kolapo Olamidun 2020</span>
+      </div>
+    </footer>
+
+
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
   		AOS.init();
